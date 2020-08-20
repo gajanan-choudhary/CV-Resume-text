@@ -25,7 +25,7 @@ major computational fluid dynamics HPC software.
     - Programming: C/C++, Fortran, Python, MATLAB, Bash, MPI,
       OpenMP, f2py, SWIG, and Python/C API.
     - Tools: Git, GitHub, Travis CI, CircleCI, Docker, Coveralls,
-      CMake, Make, Gcov, LCOV, Doxygen, and LaTeX.
+      CMake, Make, Gcov, LCOV, Doxygen, LaTeX, HTML, and CSS.
     - Concepts: Data structures, algorithms, complexity,
       object-oriented programming (OOP), standard template
       library (STL), high-performance computing, parallel
