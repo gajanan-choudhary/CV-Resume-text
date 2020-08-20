@@ -40,7 +40,8 @@ major computational fluid dynamics HPC software.
       dynamics (CFD), solid mechanics, structural dynamics,
       fluid-structure interaction (FSI), and coupled models.
     - Mathematics: Linear Algebra, functional analysis, partial
-      differential equations, numerical methods, optimization.
+      differential equations, numerical methods, and
+      optimization.
     - Applications: AdH, ADCIRC, GSSHA, Aquaveo SMS/WMS, ANSYS,
       Abaqus, ParaView, AutoCAD, and STAAD Pro.
 
