@@ -35,8 +35,8 @@ major computational fluid dynamics HPC software.
       integration and continuous delivery (CI/CD), and
       test-driven development.
 
-* Engineering:
-    - Fields: Computational mechanics, computational fluid
+* Research:
+    - Engineering: Computational mechanics, computational fluid
       dynamics (CFD), solid mechanics, structural dynamics,
       fluid-structure interaction (FSI), and coupled models.
     - Mathematics: Linear Algebra, functional analysis, partial
