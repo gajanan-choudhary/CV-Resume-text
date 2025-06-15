@@ -1,55 +1,103 @@
 # Gajanan Choudhary
 
-Address: Lake Austin Blvd., Austin, TX 78703
+E-mail: gajananchoudhary91@gmail.com
 
-Phone: (512) 657-3030
+Address: Austin, TX, USA
 
-E-mail: gajanan@utexas.edu
+Phone: +1 (512) 657-3030
 
 LinkedIn: https://www.linkedin.com/in/gajananchoudhary
 
-Website: http://users.oden.utexas.edu/~gajanan
+GitHub: https://github.com/gajanan-choudhary
 
-GitHub: http://github.com/gajanan-choudhary
+Website: https://gajanan-choudhary.github.io
 
 
 ## Summary
-Computational engineer with 8 years of interdisciplinary
-research and software development experience through
-15+ projects, and contributor to multiple
-major computational fluid dynamics HPC software.
+Computational scientist with 12+ years of interdisciplinary research and
+high-performance computing (HPC) production software development experience
+through long-term projects spanning applied mathematics, CPU/GPU kernel
+development, optimization, and machine learning.
+Creator of 4 scientific software, contributor to 5 HPC software written in
+C/C++, SYCL, Python, and Fortran, maintainer of the sparse BLAS domain in the
+open-source oneAPI Specification under the Unified Acceleration (UXL)
+foundation, and author of 6 technical publications.
 
 
 ## Skills
 * Software development:
-    - Programming: C/C++, Fortran, Python, MATLAB, Bash, MPI,
-      OpenMP, f2py, SWIG, and Python/C API.
-    - Tools: GitHub, Bitbucket, Git, Mercurial, SVN, Travis CI,
+    - Programming: C/C++, SYCL/DPC++, Python, Fortran, MATLAB, MPI,
+      OpenMP, f2py, SWIG, Python/C API, and Bash.
+    - Tools: Git, GitHub, Copilot, Bitbucket, Mercurial, SVN, Travis CI,
       CircleCI, Docker, Coveralls, Codecov, CMake, GNU Make,
-      Gcov, LCOV, GProf, Doxygen, LaTeX, HTML, and CSS.
-    - Concepts: Data structures, algorithms, complexity,
-      object-oriented programming (OOP), standard template
-      library (STL), high-performance computing, parallel
-      programming, general purpose GPU (GPGPU) programming,
-      language interoperability, debugging, continuous
-      integration and continuous delivery (CI/CD), and
+      Gcov, LCOV, GProf, GDB, Valgrind, Doxygen, LaTeX, HTML, and CSS.
+    - Concepts: High-performance computing, parallel programming,
+      CPU and GPU performance optimization, kernel development, x86
+      intrinsics, assembly, neural networks, deep learning, large language
+      models, transformers, library engineering, language interoperability,
+      data structures, algorithms, complexity, object-oriented programming
+      (OOP), standard template library (STL), debugging, code coverage,
+      continuous integration and continuous delivery (CI/CD), and
       test-driven development (TDD).
 
 * Research:
     - Engineering: Computational mechanics, computational fluid
       dynamics (CFD), solid mechanics, structural dynamics,
       fluid-structure interaction (FSI), and coupled models.
-    - Mathematics: Linear Algebra, functional analysis, partial
-      differential equations, numerical methods, and
-      optimization.
-    - Applications: AdH, ADCIRC, GSSHA, Aquaveo SMS/WMS, ANSYS,
-      Abaqus, ParaView, AutoCAD, and STAAD Pro.
+    - Mathematics: Linear algebra, functional analysis, partial
+      differential equations, numerical methods, advanced theory of finite
+      element methods, approximation, and optimization.
+    - Applications: Adaptive Hydraulics (AdH), ADvanced CIRCulation (ADCIRC),
+      Gridded Surface Subsurface Hydrologic Analysis (GSSHA), Aquaveo SMS/WMS,
+      ANSYS, Abaqus, ParaView, AutoCAD, and STAAD Pro.
 
 
 ## Work Experience
+* Math Algorithm Engineer / Software Engineer, Intel Corporation,
+  Austin, TX, February 2021 - Present.
+  - Responsibilities: Owned sparse linear algebra and high-performance
+    conjugate gradient (HPCG) benchmark components as a contributor in the
+    Intel® oneAPI Math Kernel Library (oneMKL) team.
+  - Led the redefinition of sparse BLAS domain APIs in the oneAPI
+    Specification for the UXL Foundation as a maintainer,
+    and directed and reviewed implementation of Intel oneMKL, NVIDIA
+    cuSPARSE, and AMD ROCm backends in the foundation's hardware- and
+    platform-agnostic open-source implementation of those APIs: the
+    oneMath library.
+  - Implemented GPU performance optimizations for
+    the sparse matrix-vector product (GEMV) and sparse × sparse
+    matrix product (spGEMM) SYCL APIs for compressed sparse row
+    (CSR) matrices.
+  - Received division awards for implementing 700+
+    high-quality, general, hand-optimized  wrappers over x86 intrinsics
+    APIs to support SIMD lengths {1, 2, 4, 8, 16} on AVX2 and AVX512
+    architectures for all common integer and real/complex floating-point
+    types to ease kernel development, performance optimization, and
+    testing overhead by orders of magnitude.
+  - Implemented extreme CPU performance optimizations
+    for CSR and block compressed sparse row (BSR) matrix formats for
+    sparse × dense matrix multiplication (GEMM) API in oneMKL for
+    AVX2 and AVX512 architectures for all supported types using
+    vectorization, unrolling, x86 intrinsics wrappers, and assembly.
+  - Introduced optimized SYCL/GPU APIs in oneMKL for
+    sparse matrix addition, sorting, and transposition.
+
+* Research Associate, The University of Texas at Austin,
+  Austin, TX, December 2020 - February 2021.
+  - Responsibilities: Conducted research on hurricanes and managed research
+    direction of post-doctoral fellows and doctoral students in the team.
+  - Led the development of coupled PyTorch
+    neural network and CFD/physics models in the Python
+    software, Water Coupler, to potentially save lives and billions of
+    dollars through hurricane compound flood forecasts.
+  - Led software projects that the US Army Corps
+    of Engineers (USACE) sponsored to expand the capabilities of
+    their CFD software, AdH, through addition of PETSc solvers and
+    coupling with HEC-RAS.
+
 * Postdoctoral Fellow, The University of Texas at Austin,
-Austin, TX, October 2019 - Present.
-    - Responsibility: Open-source parallel software development
+  Austin, TX, October 2019 - December 2020.
+    - Responsibilities: Open-source parallel software development
       for research on coupled fluid dynamics models.
     - Coupled diffusive wave and groundwater models in the C
       software, Adaptive Hydraulics (AdH).
@@ -61,8 +109,8 @@ Austin, TX, October 2019 - Present.
       from hurricanes.
 
 * Graduate Research Assistant, The University of Texas at Austin,
-Austin, TX, September 2014 - October 2019.
-    - Responsibility: Software and library development for
+  Austin, TX, September 2014 - October 2019.
+    - Responsibilities: Software and library development for
       research on coupled fluid dynamics models.
     - Created, designed, implemented, tested, and validated the
       Python software, Water Coupler, for coupling hydrodynamic
@@ -85,8 +133,8 @@ Austin, TX, September 2014 - October 2019.
       under the High Performance Computing Modernization Program.
 
 * Assistant Surveyor, Indian Register of Shipping,
-Mumbai, India, July 2013 - July 2014.
-    - Responsibility: Research on stress response of ship hulls
+  Mumbai, India, July 2013 - July 2014.
+    - Responsibilities: Research on stress response of ship hulls
       to bending, shear, torsion, and warping loads.
     - Created, tested, verified, validated, and documented a
       MATLAB software with a graphical user interface (GUI),
@@ -95,10 +143,12 @@ Mumbai, India, July 2013 - July 2014.
       using graph algorithms.
     - Worked on 3D modeling and finite element analysis of a
       post-Panamax container ship using ANSYS.
+    - Work on sectorial properties and torsion published
+      externally as a company guideline in 2024.
 
 * Structural Design Intern, Himanshu Tulpule and Associates,
-Pune, India, May 2012 - July 2012.
-    - Responsibility: Structural design and detailing of 
+  Pune, India, May 2012 - July 2012.
+    - Responsibilities: Structural design and detailing of
       reinforced concrete and steel structures.
     - Designed 14 structures spanning numerous types, including
       trusses, beams, columns, slabs, foundations, arches, and
@@ -131,6 +181,45 @@ Pune, India, May 2012 - July 2012.
   July 2009 - July 2013,
   Bachelor of Technology (B.Tech.) in Civil Engineering,
   GPA: 8.23/10.
+
+
+## Software contributions
+  * Maintainer, Sparse BLAS component in the oneAPI Specification:
+    Designing and maintaining portable, performant, platform-agnostic,
+    and hardware-agnostic sparse BLAS SYCL math APIs.
+  * Contributor, Intel® oneAPI Math Kernel Library (oneMKL):
+    Owned feature implementations and CPU/GPU architecture-specific
+    performance optimizations for sparse linear algebra and HPCG benchmark
+    components in oneMKL, written in C, C++, SYCL/DPC++, and Fortran.
+  * Creator, Water Coupler:
+    Developed the open-source parallel Python software for coupling
+    physics models, AdH (C), GSSHA (C++), and ADCIRC (Fortran), as well
+    as PyTorch machine learning/neural network models for real-time
+    hurricane compound flood simulations.
+  * Contributor, Adaptive Hydraulics, US Army Corps of Engineers:
+    Created the C/Python interface of AdH (adhpython), enhanced its
+    meteorological library, improved mesh adaption, and coupled its shallow
+    water, ground water, and diffusive wave models, all in parallel.
+  * Contributor, ADCIRC:
+    Created the Fortran/Python interface of ADCIRC (pyADCIRC), enabling
+    physics-based machine learning applications and multi-software
+    coupling in Water Coupler.
+  * Contributor, GSSHA:
+    Created the C++/Python interface of GSSHA (gsshapython) enabling
+    multi-software coupling with ADCIRC and AdH in Water Coupler.
+  * Creator, htopy:
+    Developed an open-source Python software for partially
+    automating the generation of Python interfaces of C/C++
+    software, and used it to generate the Python interfaces of AdH and
+    GSSHA.
+  * Creator, AdH-meshbuilder:
+    Developed an open-source C software for generating arrays of
+    coupled AdH finite element models.
+  * Creator, IR-Sect:
+    Developed a proprietary MATLAB software with a graphical user
+    interface (GUI) for modeling 2D ship cross-sections and
+    calculating their sectorial properties by implementing graph
+    algorithms.
 
 
 ## Projects
@@ -182,10 +271,10 @@ Supervisors: Dr. N. Mitra and Dr. S. K. Barai.
 
 
 ## Activities
-* Diversity: Mentored a female undergraduate student in Spring
+* Diversity: Mentored an undergraduate student in Spring
   2018 as part of Graduates Linked with Undergraduates in
-  Engineering (GLUE) program at UT Austin, with the aim to
-  inspire women to pursue graduate degrees in STEM.
+  Engineering (GLUE) program at UT Austin, aimed at
+  inspiring women to pursue graduate degrees in STEM.
 
 * Dance: Completed intermediate level training in various social
   dance forms at UT Austin and Austin Swing Syndicate.
@@ -198,14 +287,11 @@ Supervisors: Dr. N. Mitra and Dr. S. K. Barai.
 
 
 ## Peer-reviewed Publications
-* Choudhary, G. K., Trahan, C. J., Dawson, C. & Farthing, M.
-  Weakly coupled atmospheric, hydrodynamic, and hydrologic models
-  for simulation of compound floods. In draft.
-
 * Choudhary, G. K., Trahan, C. J., Pettey, L., Farthing, M.,
-  Inanc, E., Savant, G., & Dawson, C. Strongly coupled 2D and 3D
-  shallow water models for simulation of baroclinic flows
-  involving wetting and drying. In draft.
+  Berger, C., Savant, G., Inanc, E., Dawson, C., & Loveland, M.
+  (2025). Strongly coupled 2D and 3D shallow water models: Theory
+  and verification. Journal of Hydraulic Engineering, 151 (1),
+  04024049.
 
 * Trahan, C. J., Savant, G., Berger, R. C., McAlpin, T. O.,
   Pettey, L., Choudhary, G. K., & Dawson, C. N. (2018).
@@ -218,7 +304,7 @@ Supervisors: Dr. N. Mitra and Dr. S. K. Barai.
   678-691.
 
 * Choudhary, G. K., & Dey, S. (2012, October). Crack detection in
-  concrete surfaces using image processing, fuzzy logic, and 
+  concrete surfaces using image processing, fuzzy logic, and
   neural networks. In Advanced Computational Intelligence
   (ICACI), 2012 IEEE Fifth International Conference on (pp.
   404-411). IEEE.
@@ -237,6 +323,11 @@ Supervisors: Dr. N. Mitra and Dr. S. K. Barai.
 
 
 ## Technical Reports
+* Choudhary, G. K., & Doshi, K. M. (2024). Guidelines on assessment
+  of hull girder stresses due to torsion in ships with large deck
+  openings. Indian Register of Shipping, India. Retrieved from
+  https://www.irclass.org/media/7468/guidelines-torsion_irs-g-des-17_sept-2024_new.pdf.
+
 * Choudhary, G. K., & Dawson, C. (2014-2019). Over 20 reports
   submitted to the Engineer Research and Development Center and
   the Department of Defense for 4 projects sponsored under PETTT
@@ -251,10 +342,6 @@ Supervisors: Dr. N. Mitra and Dr. S. K. Barai.
   Houston-Galveston Area Protection System (Annual report). Rice
   University, USA. Retrieved from
   http://speed.rice.edu/sspeed/downloads/HGAPS_Report_08_31_15.pdf.
-
-* Choudhary, G. K., & Doshi, K. M. (2014). A guideline for
-  torsion analysis of container ships (Internal publication).
-  Indian Register of Shipping, India.
 
 * Choudhary, G. K., & Doshi, K. M. (2014). An algorithm for
   evaluation of sectorial properties of arbitrarily shaped
@@ -291,6 +378,4 @@ Supervisors: Dr. N. Mitra and Dr. S. K. Barai.
 * Hindi: Native
 
 * Marathi: Native
-
-* Japanese: Elementary
 
